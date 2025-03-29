@@ -9,6 +9,7 @@ class ContactAdmin(admin.ModelAdmin):
         "id",
         "first_name",
         "last_name",
+        "email",
         "phone",
     )
     ordering = ("-id",)
